@@ -45,6 +45,7 @@ struct ContentView: View {
                 .keyboardType(.numberPad)
                 .textFieldStyle(.roundedBorder)
             TextField("y", text: $yString)
+                .keyboardType(.numberPad)
                 .textFieldStyle(.roundedBorder)
             
             LazyHGrid(rows: rows) {
